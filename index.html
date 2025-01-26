@@ -428,15 +428,15 @@
             var popupContent = '<table>\
                     <tr>\
                         <th scope="row">Kecamatan</th>\
-                        <td class="visible-with-data" id="Kecamatan">' + (feature.properties['WADMKC'] !== null ? autolinker.link(feature.properties['WADMKC'].toLocaleString()) : '') + '</td>\
+                        <td class="visible-with-data" id="Kecamatan">' + (feature.properties['Kecamatan'] !== null ? autolinker.link(feature.properties['WADMKC'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <th scope="row">Desa/Kelurahan</th>\
-                        <td class="visible-with-data" id="Desa/Kelurahan">' + (feature.properties['WADMKD'] !== null ? autolinker.link(feature.properties['WADMKD'].toLocaleString()) : '') + '</td>\
+                        <td class="visible-with-data" id="Desa/Kelurahan">' + (feature.properties['Desa/Kelurahan'] !== null ? autolinker.link(feature.properties['WADMKD'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <th scope="row">Kabupaten/Kota</th>\
-                        <td class="visible-with-data" id="Kabupaten/Kota">' + (feature.properties['WADMKK'] !== null ? autolinker.link(feature.properties['WADMKK'].toLocaleString()) : '') + '</td>\
+                        <td class="visible-with-data" id="Kabupaten/Kota">' + (feature.properties['Kabupaten/Kota'] !== null ? autolinker.link(feature.properties['WADMKK'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <th scope="row">Estate</th>\
@@ -448,27 +448,27 @@
                     </tr>\
                     <tr>\
                         <th scope="row">Desa Operasional</th>\
-                        <td class="visible-with-data" id="Desa Operasional">' + (feature.properties['Desa_Ops'] !== null ? autolinker.link(feature.properties['Desa_Ops'].toLocaleString()) : '') + '</td>\
+                        <td class="visible-with-data" id="Desa Operasional">' + (feature.properties['Desa Operasional'] !== null ? autolinker.link(feature.properties['Desa_Ops'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <th scope="row">Program Agribisnis</th>\
-                        <td class="visible-with-data" id="Program Agribisnis">' + (feature.properties['ProgAgri'] !== null ? autolinker.link(feature.properties['ProgAgri'].toLocaleString()) : '') + '</td>\
+                        <td class="visible-with-data" id="Program Agribisnis">' + (feature.properties['Program Agribisnis'] !== null ? autolinker.link(feature.properties['ProgAgri'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <th scope="row">Jumlah Kelp. Tani</th>\
-                        <td class="visible-with-data" id="Jumlah Kelp. Tani">' + (feature.properties['Jml_KT'] !== null ? autolinker.link(feature.properties['Jml_KT'].toLocaleString()) : '') + '</td>\
+                        <td class="visible-with-data" id="Jumlah Kelp. Tani">' + (feature.properties['Jumlah Kelp. Tani'] !== null ? autolinker.link(feature.properties['Jml_KT'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <th scope="row">Nama Kelp. Tani</th>\
-                        <td class="visible-with-data" id="Nama Kelp. Tani">' + (feature.properties['Nama_KT'] !== null ? autolinker.link(feature.properties['Nama_KT'].toLocaleString()) : '') + '</td>\
+                        <td class="visible-with-data" id="Nama Kelp. Tani">' + (feature.properties['Nama Kelp. Tani'] !== null ? autolinker.link(feature.properties['Nama_KT'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <th scope="row">Jumlah Petani</th>\
-                        <td class="visible-with-data" id="Jumlah Petani">' + (feature.properties['Jml_Petani'] !== null ? autolinker.link(feature.properties['Jml_Petani'].toLocaleString()) : '') + '</td>\
+                        <td class="visible-with-data" id="Jumlah Petani">' + (feature.properties['Jumlah Petani'] !== null ? autolinker.link(feature.properties['Jml_Petani'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <th scope="row">Sub Program</th>\
-                        <td class="visible-with-data" id="Sub Program">' + (feature.properties['Sub_Progra'] !== null ? autolinker.link(feature.properties['Sub_Progra'].toLocaleString()) : '') + '</td>\
+                        <td class="visible-with-data" id="Sub Program">' + (feature.properties['Sub Program'] !== null ? autolinker.link(feature.properties['Sub_Progra'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <th scope="row">Komoditas</th>\
@@ -480,11 +480,11 @@
                     </tr>\
                     <tr>\
                         <th scope="row">Produksi</th>\
-                        <td class="visible-with-data" id="Produksi">' + (feature.properties['Produk'] !== null ? autolinker.link(feature.properties['Produk'].toLocaleString()) : '') + '</td>\
+                        <td class="visible-with-data" id="Produksi">' + (feature.properties['Produksi'] !== null ? autolinker.link(feature.properties['Produk'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <th scope="row">Omset Rata-Rata (Rp)</th>\
-                        <td class="visible-with-data" id="Omset Rata-Rata (Rp)">' + (feature.properties['Omset_Ave'] !== null ? autolinker.link(feature.properties['Omset_Ave'].toLocaleString()) : '') + '</td>\
+                        <td class="visible-with-data" id="Omset Rata-Rata (Rp)">' + (feature.properties['Omset Rata-Rata (Rp)'] !== null ? autolinker.link(feature.properties['Omset_Ave'].toLocaleString()) : '') + '</td>\
                     </tr>\
                 </table>';
             var content = removeEmptyRowsFromPopupContent(popupContent, feature);
